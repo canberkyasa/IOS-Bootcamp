@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Odev3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0c-LR-NAF">
+                                <rect key="frame" x="0.0" y="40" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="OpenSea" id="MGI-jH-4P5"/>
+                                </items>
+                            </navigationBar>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="-9" translatesAutoresizingMaskIntoConstraints="NO" id="RGY-td-v3F">
+                                <rect key="frame" x="-10" y="797.5" width="434" height="54.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOw-vs-nRD">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="54.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="house.fill" catalog="system" imagePlacement="top" title="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4F-ZP-Xl6">
+                                        <rect key="frame" x="85" y="0.0" width="94" height="54.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="chart.bar.xaxis" catalog="system" imagePlacement="top" title="Rankings"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Blw-Hf-ZKC">
+                                        <rect key="frame" x="170" y="0.0" width="94" height="54.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system" imagePlacement="top" title="Search"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAJ-aS-0NN">
+                                        <rect key="frame" x="255" y="0.0" width="94" height="54.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="person.circle" catalog="system" imagePlacement="top" title="Profile"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGs-01-YVb">
+                                        <rect key="frame" x="340" y="0.0" width="94" height="54.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="line.3.horizontal" catalog="system" imagePlacement="top" title="More"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exclusive OpenSea Drops" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5g-0u-8KY">
+                                <rect key="frame" x="5" y="299" width="285.5" height="26"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trending Collections" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybq-EC-0Xl">
+                                <rect key="frame" x="12" y="520" width="227.5" height="26"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="d6u-vS-wxN">
+                                <rect key="frame" x="5" y="560" width="404" height="128"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imspottie" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hs1-Q8-dQp">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bracelet" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q83-LJ-USn">
+                                        <rect key="frame" x="138" y="0.0" width="128" height="128"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="knightsofdegen" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wfn-ty-4cb">
+                                        <rect key="frame" x="276" y="0.0" width="128" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="wfn-ty-4cb" firstAttribute="centerY" secondItem="hs1-Q8-dQp" secondAttribute="centerY" id="P6M-cj-el3"/>
+                                    <constraint firstItem="q83-LJ-USn" firstAttribute="centerY" secondItem="hs1-Q8-dQp" secondAttribute="centerY" id="bcb-of-K55"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZTD-SF-1Ss">
+                                <rect key="frame" x="5" y="340" width="404" height="128"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cLm-zZ-b9f">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A2t-f9-Yh7">
+                                        <rect key="frame" x="138" y="0.0" width="128" height="128"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YbO-rr-SUB">
+                                        <rect key="frame" x="276" y="0.0" width="128" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="A2t-f9-Yh7" firstAttribute="centerY" secondItem="cLm-zZ-b9f" secondAttribute="centerY" id="ehU-N0-0Ta"/>
+                                    <constraint firstItem="YbO-rr-SUB" firstAttribute="centerY" secondItem="cLm-zZ-b9f" secondAttribute="centerY" id="mHe-53-VN5"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="art" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wM7-cb-nPr">
+                                <rect key="frame" x="7" y="122" width="128" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="collectible" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="So3-ds-5Si">
+                                <rect key="frame" x="142" y="122" width="128" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collectibles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5M-lI-jEr">
+                                <rect key="frame" x="158.5" y="255" width="95.5" height="19"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="domainnames" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zko-4r-I3I">
+                                <rect key="frame" x="280" y="122" width="128" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Art" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRH-sF-jCF">
+                                <rect key="frame" x="58.5" y="255" width="25" height="19"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Domain Names" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CI-qJ-pLw">
+                                <rect key="frame" x="282.5" y="255" width="123" height="19"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pixel View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Kh-WK-Vz1">
+                                <rect key="frame" x="34" y="473" width="74" height="18"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Villians" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5SR-in-gUt">
+                                <rect key="frame" x="182" y="473" width="50.5" height="18"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faces" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwq-ZQ-OOC">
+                                <rect key="frame" x="322" y="473" width="44" height="18"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" misplaced="YES" text="Bracelets by Kekglovie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ual-AT-hIG">
+                                <rect key="frame" x="154" y="696" width="100" height="18"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Knights of the degen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOU-Eg-lXi">
+                                <rect key="frame" x="293" y="696" width="101" height="18"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm Spottie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgD-0o-lkl">
+                                <rect key="frame" x="33" y="696" width="75.5" height="18"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vOU-Eg-lXi" firstAttribute="centerY" secondItem="jgD-0o-lkl" secondAttribute="centerY" id="06e-Zw-X1O"/>
+                            <constraint firstItem="5SR-in-gUt" firstAttribute="centerY" secondItem="0Kh-WK-Vz1" secondAttribute="centerY" id="0tB-yw-dsf"/>
+                            <constraint firstItem="s0c-LR-NAF" firstAttribute="centerX" secondItem="ZTD-SF-1Ss" secondAttribute="centerX" id="22l-vC-0EU"/>
+                            <constraint firstItem="L5M-lI-jEr" firstAttribute="centerX" secondItem="So3-ds-5Si" secondAttribute="centerX" id="27S-zL-ItH"/>
+                            <constraint firstItem="5SR-in-gUt" firstAttribute="leading" secondItem="0Kh-WK-Vz1" secondAttribute="trailing" constant="74" id="2EV-OO-kKi"/>
+                            <constraint firstItem="6CI-qJ-pLw" firstAttribute="top" secondItem="Zko-4r-I3I" secondAttribute="bottom" constant="5" id="3Nb-VT-EYT"/>
+                            <constraint firstItem="ZTD-SF-1Ss" firstAttribute="top" secondItem="a5g-0u-8KY" secondAttribute="bottom" constant="15" id="3dt-jf-rOa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zko-4r-I3I" secondAttribute="trailing" constant="6" id="4lM-7E-rNJ"/>
+                            <constraint firstItem="wRH-sF-jCF" firstAttribute="top" secondItem="wM7-cb-nPr" secondAttribute="bottom" constant="5" id="5sP-5M-oIX"/>
+                            <constraint firstItem="L5M-lI-jEr" firstAttribute="centerY" secondItem="wRH-sF-jCF" secondAttribute="centerY" id="5vz-bO-HyK"/>
+                            <constraint firstItem="ual-AT-hIG" firstAttribute="top" secondItem="d6u-vS-wxN" secondAttribute="bottom" constant="8" symbolic="YES" id="6Y5-YC-enT"/>
+                            <constraint firstItem="So3-ds-5Si" firstAttribute="top" secondItem="s0c-LR-NAF" secondAttribute="bottom" constant="38" id="6cD-0d-suA"/>
+                            <constraint firstItem="Zko-4r-I3I" firstAttribute="centerX" secondItem="6CI-qJ-pLw" secondAttribute="centerX" id="AvG-eH-eAE"/>
+                            <constraint firstItem="wM7-cb-nPr" firstAttribute="centerX" secondItem="wRH-sF-jCF" secondAttribute="centerX" id="BJV-9B-Fhw"/>
+                            <constraint firstItem="ual-AT-hIG" firstAttribute="leading" secondItem="jgD-0o-lkl" secondAttribute="trailing" constant="45.5" id="BUD-Zd-c6X"/>
+                            <constraint firstItem="wM7-cb-nPr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="Dm8-RO-FbG"/>
+                            <constraint firstItem="vOU-Eg-lXi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ual-AT-hIG" secondAttribute="trailing" constant="8" symbolic="YES" id="DsT-ZM-wjR"/>
+                            <constraint firstItem="5SR-in-gUt" firstAttribute="top" secondItem="ZTD-SF-1Ss" secondAttribute="bottom" constant="5" id="Gi7-W2-u2E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vOU-Eg-lXi" secondAttribute="trailing" constant="20" id="M6Q-7F-mlH"/>
+                            <constraint firstItem="jgD-0o-lkl" firstAttribute="top" secondItem="d6u-vS-wxN" secondAttribute="bottom" constant="8" symbolic="YES" id="MMM-b5-8du"/>
+                            <constraint firstItem="Hwq-ZQ-OOC" firstAttribute="top" secondItem="ZTD-SF-1Ss" secondAttribute="bottom" constant="5" id="NPy-CS-XAV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Hwq-ZQ-OOC" secondAttribute="trailing" symbolic="YES" id="Upc-lS-Ebp"/>
+                            <constraint firstItem="RGY-td-v3F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WGs-w0-m5d"/>
+                            <constraint firstItem="ual-AT-hIG" firstAttribute="centerY" secondItem="jgD-0o-lkl" secondAttribute="centerY" id="WnU-4F-sLt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="a5g-0u-8KY" secondAttribute="trailing" symbolic="YES" id="Ws8-Fb-lko"/>
+                            <constraint firstItem="s0c-LR-NAF" firstAttribute="centerX" secondItem="d6u-vS-wxN" secondAttribute="centerX" id="XGL-BP-HWZ"/>
+                            <constraint firstItem="Zko-4r-I3I" firstAttribute="leading" secondItem="So3-ds-5Si" secondAttribute="trailing" constant="10" id="ZEI-2R-2ai"/>
+                            <constraint firstItem="Hwq-ZQ-OOC" firstAttribute="leading" secondItem="5SR-in-gUt" secondAttribute="trailing" constant="89.5" id="a7p-FY-eeH"/>
+                            <constraint firstItem="s0c-LR-NAF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-8" id="d1a-Ig-lIL"/>
+                            <constraint firstItem="L5M-lI-jEr" firstAttribute="top" secondItem="So3-ds-5Si" secondAttribute="bottom" constant="5" id="dL9-D8-cXw"/>
+                            <constraint firstItem="vOU-Eg-lXi" firstAttribute="top" secondItem="d6u-vS-wxN" secondAttribute="bottom" constant="8" symbolic="YES" id="dn3-cr-4Gz"/>
+                            <constraint firstItem="wM7-cb-nPr" firstAttribute="top" secondItem="s0c-LR-NAF" secondAttribute="bottom" constant="38" id="dxs-Ve-h2d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RGY-td-v3F" secondAttribute="bottom" constant="10" id="e5b-cA-tz3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ybq-EC-0Xl" secondAttribute="trailing" symbolic="YES" id="fEx-SX-AsT"/>
+                            <constraint firstItem="0Kh-WK-Vz1" firstAttribute="top" secondItem="ZTD-SF-1Ss" secondAttribute="bottom" constant="5" id="fHh-lF-ojj"/>
+                            <constraint firstItem="So3-ds-5Si" firstAttribute="centerY" secondItem="wM7-cb-nPr" secondAttribute="centerY" id="gJw-4A-Dpv"/>
+                            <constraint firstItem="6CI-qJ-pLw" firstAttribute="centerY" secondItem="wRH-sF-jCF" secondAttribute="centerY" id="hs8-l9-o3a"/>
+                            <constraint firstItem="a5g-0u-8KY" firstAttribute="top" secondItem="L5M-lI-jEr" secondAttribute="bottom" constant="25" id="nNx-LR-69j"/>
+                            <constraint firstItem="Hwq-ZQ-OOC" firstAttribute="centerY" secondItem="0Kh-WK-Vz1" secondAttribute="centerY" id="nv4-FK-onB"/>
+                            <constraint firstItem="d6u-vS-wxN" firstAttribute="top" secondItem="ybq-EC-0Xl" secondAttribute="bottom" constant="14" id="oIf-3c-OpF"/>
+                            <constraint firstItem="Zko-4r-I3I" firstAttribute="centerY" secondItem="wM7-cb-nPr" secondAttribute="centerY" id="q4H-w8-Y3O"/>
+                            <constraint firstItem="jgD-0o-lkl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="qN1-eu-bHf"/>
+                            <constraint firstItem="ZTD-SF-1Ss" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="qss-ca-Cj3"/>
+                            <constraint firstItem="0Kh-WK-Vz1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="r1o-a2-JT8"/>
+                            <constraint firstItem="a5g-0u-8KY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="ueA-7N-FMq"/>
+                            <constraint firstItem="Zko-4r-I3I" firstAttribute="top" secondItem="s0c-LR-NAF" secondAttribute="bottom" constant="38" id="val-5O-bRo"/>
+                            <constraint firstItem="s0c-LR-NAF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="w82-zd-oPf"/>
+                            <constraint firstItem="ybq-EC-0Xl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="xNh-Ry-Shv"/>
+                            <constraint firstItem="RGY-td-v3F" firstAttribute="top" secondItem="d6u-vS-wxN" secondAttribute="bottom" constant="109.5" id="ycY-HR-NaE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73.913043478260875" y="3.3482142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="128" height="128"/>
+        <image name="2" width="128" height="128"/>
+        <image name="3" width="128" height="128"/>
+        <image name="art" width="128" height="128"/>
+        <image name="bracelet" width="128" height="128"/>
+        <image name="chart.bar.xaxis" catalog="system" width="128" height="99"/>
+        <image name="collectible" width="128" height="128"/>
+        <image name="domainnames" width="128" height="128"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="imspottie" width="128" height="128"/>
+        <image name="knightsofdegen" width="128" height="128"/>
+        <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="person.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

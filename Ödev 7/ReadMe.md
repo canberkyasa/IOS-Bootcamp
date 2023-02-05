@@ -6,8 +6,5 @@ App Icon
 
 Screenshots
 ------------
-<img src="https://github.com/canberkyasa/IOS-Bootcamp/blob/main/%C3%96dev%207/HomePage.png" width="414" height="896">  __  <img src="https://github.com/canberkyasa/IOS-Bootcamp/blob/main/%C3%96dev%207/AddNewTask.png" width="414" height="896">
+<img src="https://github.com/canberkyasa/IOS-Bootcamp/blob/main/%C3%96dev%207/HomePage.png" width="212" height="448">  __  <img src="https://github.com/canberkyasa/IOS-Bootcamp/blob/main/%C3%96dev%207/AddNewTask.png" width="212" height="448"> __ <img src="https://github.com/canberkyasa/IOS-Bootcamp/blob/main/%C3%96dev%207/UpdateTask.png" width="212" height="448">
 
-
-
-<img src="https://github.com/canberkyasa/IOS-Bootcamp/blob/main/%C3%96dev%207/UpdateTask.png" width="414" height="896">
